@@ -1,0 +1,10 @@
+.Table {
+    display: flex;
+    margin: 0 10vh 0 10vh;
+}
+
+.Tbody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

@@ -1,0 +1,44 @@
+.Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin: 0 50px 0 50px;
+}
+
+.Details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Name {
+    margin-bottom: 0px;
+}
+
+.Info {
+    display: flex;
+}
+
+.DeleteButton {
+    width: 100px;
+    height: 100%;
+    border: 0px;
+    background: red;
+    color: white;
+    font-size: 24px;
+}
